@@ -21,7 +21,7 @@ public class MortgageController {
 	
 	private MainApp mainApp;
 	
-	@FXML private TextField txtIncome;
+	@FXML private TextField txtdIncome;
 	@FXML private TextField txtExpenses;
 	@FXML private TextField txtCreditScore;
 	@FXML private TextField txtHouseCost;
@@ -46,8 +46,8 @@ public class MortgageController {
 		Action a = new Action(eAction.CalculatePayment);
 		LoanRequest lq = new LoanRequest();
 		
-		lq.setIncome(Double.parseDouble(txtIncome.getText()));
-		lq.setExpenses(Double.parseDouble(txtExpenses.getText()));
+		lq.setdIncome(Double.parseDouble(txtdIncome.getText()));
+		lq.setdExpenses(Double.parseDouble(txtExpenses.getText()));
 		lq.setiCreditScore(Integer.parseInt(txtCreditScore.getText()));
 		lq.setiTerm(Integer.parseInt(txtTerm.getText()));
 		lq.setiDownPayment(Integer.parseInt(txtDownPayment.getText()));

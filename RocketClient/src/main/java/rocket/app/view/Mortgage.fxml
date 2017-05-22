@@ -39,10 +39,10 @@
             <TextField fx:id="txtCreditScore" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="txtHouseCost" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="txtDownPayment" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="txtTerm" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <Label fx:id="lblMortgagePaymentAmount" GridPane.columnIndex="1" GridPane.rowIndex="6" />
             <Button fx:id="btnCalculate" mnemonicParsing="false" onAction="#btnCalculatePayment" prefHeight="40.0" prefWidth="127.0" text="Calculate" GridPane.columnIndex="1" GridPane.rowIndex="7" />
             <Label fx:id="lblError" textFill="RED" GridPane.rowIndex="8" />
-            <TextField fx:id="txtTerm" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
    </children>

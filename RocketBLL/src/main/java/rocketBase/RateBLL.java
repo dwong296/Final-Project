@@ -40,9 +40,9 @@ private static RateDAL _RateDAL = new RateDAL();
 	{
 		boolean bCheckPITI = false;
 		
-		if(lq.getdPayment() < (lq.getIncome()*0.28))
+		if(lq.getdPayment() < (lq.getdIncome()*0.28))
 			bCheckPITI = true; 
-		if(lq.getdPayment() < (lq.getIncome() - lq.getExpenses())*0.36)
+		if(lq.getdPayment() < (lq.getdIncome() - lq.getdExpenses())*0.36)
 			bCheckPITI = true;
 		
 		return bCheckPITI;
